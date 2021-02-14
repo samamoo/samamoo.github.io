@@ -1,10 +1,12 @@
 import './App.css';
 import Samantha from "./Samantha";
+import Stars from "./Stars"
 
 function App() {
   return (
     <div className="App">
       <Samantha/>
+      <Stars/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
