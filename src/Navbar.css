@@ -1,6 +1,7 @@
 .nav-bar {
   margin-left: 50px;
   padding: 30px;
+  z-index: 10;
 }
 li {
   list-style: none;
@@ -9,4 +10,15 @@ li {
 a {
   text-decoration: none;
   color: #FFF;
+}
+
+.planet {
+  max-width: 100px;
+  max-height: 100px;
+  display: inline-block;
+}
+
+.planet:hover {
+  transform: rotateZ(45deg);
+  transform: translateY(-0.5em);
 }
