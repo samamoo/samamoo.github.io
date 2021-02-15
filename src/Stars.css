@@ -1,9 +1,13 @@
 
 .wrapper {
+  position: absolute;
+  top: 0;
+  left: 5%;
   width: 100%;
   height: 100vh;
+  transform: rotateZ(45deg);
   animation: animStar 300s infinite linear;
-
+  z-index: -100;
 }
 .wrapper2 {
   position: absolute;
@@ -12,7 +16,7 @@
   width: 100%;
   height: 100vh;
   animation: animStar 500s infinite linear;
-
+  z-index: -100;
 }
 .wrapper3 {
   position: absolute;
@@ -20,7 +24,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-
+  z-index: -100;
 }
 
 #stars {
