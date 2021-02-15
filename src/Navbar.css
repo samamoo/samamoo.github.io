@@ -1,0 +1,12 @@
+.nav-bar {
+  margin-left: 50px;
+  padding: 30px;
+}
+li {
+  list-style: none;
+  margin-top: 80px;
+}
+a {
+  text-decoration: none;
+  color: #FFF;
+}
