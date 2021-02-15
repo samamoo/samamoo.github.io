@@ -1,43 +1,42 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <header>
-      <nav className="nav-bar">
-        <ul className="nav-links">
+    <nav className="nav-bar">
+      <ul>
+        <Link to="/">
           <li>
-            <a href="#">
-              <img className="about" src="/img/uranus.png" />
-              ABOUT
-            </a>
+            <img className="planet" src="/img/earth-globe.png" />
+              HOME
           </li>
+        </Link>
+        <Link to="/about">
           <li>
-            <a href="#">
-              <img className="about" src="/img/jupiter.png" />
-              PROJECTS
-            </a>
+            <img className="planet" src="/img/jupiter.png" />
+              ABOUT ME
           </li>
-          <li>
-            <a href="#">
-              <img className="about" src="/img/earth-globe.png" />
-              OTHER WORKS
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img className="about" src="/img/planet.png" />
-              RESUME
-            </a>
-          </li>
-          <li>
-            <a href="#">
-            <img className="about" src="/img/neptune.png"/>
-              CONTACT
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+        </Link>
+        <li>
+          <a href="#">
+          <img className="planet" src="/img/uranus.png" />
+            PROJECTS
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img className="planet" src="/img/planet.png" />
+            RESUME
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <img className="planet" src="/img/neptune.png"/>
+            CONTACT
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 }
