@@ -19,6 +19,28 @@ a {
 }
 
 .planet:hover {
-  transform: rotateZ(45deg);
-  transform: translateY(-0.5em);
+  transform: translateY(-1em);
+  animation: raise 0.3s ease;
+  /* animation: tilt 0.5s ease; */
+}
+
+/* @keyframes tilt {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(45deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+} */
+
+@keyframes raise {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-1em);
+  }
 }
