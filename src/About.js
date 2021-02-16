@@ -12,8 +12,11 @@ export default function About () {
   return (
     <main>
       <div className="biotext" ref={el => {fadeIn1 = el}}>
-        <h1 className="title" >A BIT ABOUT ME!</h1>
+        <h1 className="title" >OR-BIT ABOUT ME!</h1>
         <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <div class="button-holder">
+          <a class="btn" href="https://www.canva.com/design/DAERqDB5coE/xKwtC5gbBmRD_ClfMplaUg/view?utm_content=DAERqDB5coE&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" target="_blank">RESUME</a>
+        </div>
       </div>
       {/* <div className="capsule" ref={el => {leftAnimate = el}}>
         <div className="cap"></div>
