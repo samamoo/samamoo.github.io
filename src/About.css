@@ -16,7 +16,25 @@
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   /* font-weight: 400; */
-
+}
+.button-holder {
+  /* float: right; */
+  text-align: center;
+  margin: 15% 4% 0;
+}
+.btn {
+  /* float: right; */
+  background: #0B66C2;
+  color: #f6faff;
+  text-decoration: none;
+  font-weight: 800;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 10%;
+  letter-spacing: 1%;
+}
+.btn:hover {
+  background-color: #297fd5;
 }
 
 #profile {
@@ -38,5 +56,6 @@
   /* transform: translate( -50%, -50%) */
 }
 #rocketship {
-  transform: rotateZ(-45deg)
+  transform: rotateZ(-45deg);
+  /* transform: rotateY(180deg) rotateZ(-45deg); */
 }
