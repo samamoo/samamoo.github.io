@@ -18,24 +18,24 @@ export default function Navbar() {
               ABOUT ME
           </li>
         </Link>
-        <li>
-          <a href="#">
-          <img className="planet" src="/img/uranus.png" />
-            PROJECTS
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img className="planet" src="/img/planet.png" />
-            RESUME
-          </a>
-        </li>
-        <li>
-          <a href="#">
-          <img className="planet" src="/img/neptune.png"/>
-            CONTACT
-          </a>
-        </li>
+        <Link to="/projects">
+          <li>
+            <img className="planet" src="/img/uranus.png" />
+              PROJECTS
+          </li>
+        </Link>
+        <Link>
+          <li>
+              <img className="planet" src="/img/planet.png" />
+              RESUME
+          </li>
+        </Link>
+        <Link>
+          <li>
+            <img className="planet" src="/img/neptune.png"/>
+              CONTACT
+          </li>
+        </Link>
       </ul>
     </nav>
   );
