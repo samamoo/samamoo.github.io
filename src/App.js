@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
