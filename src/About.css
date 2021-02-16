@@ -1,10 +1,22 @@
+.biotext {
+  width: 30%;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
 .title {
   color: #FFF;
   font-size: 50px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
   font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+.bio {
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  /* font-weight: 400; */
+
 }
 
 #profile {
