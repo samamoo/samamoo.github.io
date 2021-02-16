@@ -57,5 +57,4 @@
 }
 #rocketship {
   transform: rotateZ(-45deg);
-  /* transform: rotateY(180deg) rotateZ(-45deg); */
 }
