@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Releaf",
+    "description": "Lorem Ipsum",
+    "stack": "Lorem Ipsum some more",
+    "image": "https://github.com/marcusalint/ReLeaf/blob/master/docs/Screen%20Shot%202021-02-02%20at%203.13.42%20PM.png?raw=true"
+  },
+  {
+    "title": "Mamma Mia's Food Pick-Up App",
+    "description": "Lorem Ipsum",
+    "stack": "Lorem Ipsum some more",
+    "image": "https://github.com/samamoo/Midterm/blob/master/img/menu.png?raw=true"
+  },
+  {
+    "title": "Scheduler",
+    "description": "Lorem Ipsum",
+    "stack": "Lorem Ipsum some more",
+    "image": "https://github.com/samamoo/scheduler/blob/master/docs/scheduler_book.png?raw=true"
+  }
+]
