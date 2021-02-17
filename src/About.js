@@ -23,7 +23,7 @@ export default function About () {
         <img id="profile" src="https://media-exp1.licdn.com/dms/image/C5603AQHGcsjvm92RiA/profile-displayphoto-shrink_200_200/0/1609202193871?e=1619049600&v=beta&t=4-EM0czab9XYWY5Rx_Kh40zMcCN5AHnRwsZD0bsikEw" />
       </div> */}
       <div className="rocket" ref={el => {leftAnimate = el}}>
-        <img src="./img/rocket.png" id="rocketship"/>
+        <img src="https://github.com/samamoo/samamoo.github.io/blob/master/public/img/rocket.png?raw=true" id="rocketship"/>
         <img id="profile" src="https://media-exp1.licdn.com/dms/image/C5603AQHGcsjvm92RiA/profile-displayphoto-shrink_200_200/0/1609202193871?e=1619049600&v=beta&t=4-EM0czab9XYWY5Rx_Kh40zMcCN5AHnRwsZD0bsikEw" />
       </div>
     </main>
