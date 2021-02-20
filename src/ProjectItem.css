@@ -1,7 +1,9 @@
 .box {
   margin: 20px;
-  background-color:#EEEEEE;
-  color: #2A2A2A;
+  background-color:#000;
+  /* background-color:#EEEEEE; */
+  /* color: #2A2A2A; */
+  color: #EEEEEE;
   font-size: small;
   width: 100%;
   max-width: 400px;
