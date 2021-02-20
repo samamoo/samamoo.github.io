@@ -1,0 +1,16 @@
+.ufo {
+  max-height: 80px;
+  max-width: 80px;
+  position: fixed;
+  /* top: 5%; */
+  /* position: absolute;
+  top: 10%;
+  left: 10%; */
+  z-index: 100;
+  transition: all 150ms ease;
+  transition-property: opacity;
+}
+
+.ufo--hidden {
+  opacity: 0;
+}
