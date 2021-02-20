@@ -1,8 +1,8 @@
 .biotext {
   width: 30%;
   position: absolute;
-  left: 30%;
-  top: 30%;
+  left: 25%;
+  top: 40%;
 }
 .title {
   color: #FFF;
@@ -50,7 +50,7 @@
 
 .rocket {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 60%;
 }
 #rocketship {

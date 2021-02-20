@@ -27,15 +27,15 @@ export default function Navbar() {
         <Link>
           <li>
               <img className="planet" src="/img/planet.png" />
-              RESUME
+              CONTACT ME
           </li>
         </Link>
-        <Link>
+        {/* <Link>
           <li>
             <img className="planet" src="/img/neptune.png"/>
               CONTACT
           </li>
-        </Link>
+        </Link> */}
       </ul>
     </nav>
   );
