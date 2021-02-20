@@ -1,7 +1,7 @@
 .projectsPage {
   position: absolute;
-  top: 10%;
-  left: 30%;
+  top: 30%;
+  left: 10%;
 }
 .projectsList {
   display: flex;

@@ -27,7 +27,7 @@ export default function Navbar() {
         <Link>
           <li>
               <img className="planet" src="/img/planet.png" />
-              CONTACT ME
+              CONTACT
           </li>
         </Link>
         {/* <Link>
