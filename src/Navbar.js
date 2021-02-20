@@ -24,7 +24,7 @@ export default function Navbar() {
               PROJECTS
           </li>
         </Link>
-        <Link>
+        <Link to="/contact">
           <li>
               <img className="planet" src="/img/planet.png" />
               CONTACT
