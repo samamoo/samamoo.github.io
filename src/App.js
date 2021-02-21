@@ -19,7 +19,7 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar/>
-        <Cursor/>
+        {/* <Cursor/> */}
         <Stars/>
         <BackToTop showBelow={250}/>
 
