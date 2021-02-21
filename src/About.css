@@ -58,3 +58,9 @@
   transform: rotateZ(-45deg);
   max-width: 100%;
 }
+
+@media only screen and (max-width: 850px){
+  .bio {
+    font-size: 12px;
+  }
+}
